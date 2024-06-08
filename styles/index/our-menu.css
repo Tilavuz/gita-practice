@@ -1,0 +1,140 @@
+@import url("../variables.css");
+
+.our-menu {
+}
+
+.our-menu__title {
+  margin-bottom: 40px;
+}
+
+.our-menu__title_text {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.our-menu__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.our-menu__head_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 26px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  color: #6a6a6a;
+  margin-right: 10px;
+}
+
+.our-menu__head_item.active {
+  background-color: var(--light-green);
+  color: white;
+}
+
+.our-menu__head_item:hover {
+  background-color: var(--primary-color);
+  transition: all 0.3s;
+  color: white;
+}
+
+.our-menu__head_item-type {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.our-menu__head_item-value {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.our-menu__content {
+  background-color: var(--light-green);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.our-menu__content-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-menu__contect-head-items {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.our-menu__content-head-week {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.our-menu__content-head-week-btn {
+  background-color: inherit;
+}
+
+.our-menu__content-head-week_content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.our-menu__content-head-week_content-count {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  white-space: none;
+}
+
+.our-menu__content-head-week_content-desc {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  background-color: var(--primary-color);
+}
+
+.our-menu__content-head_item {
+  padding: 12px 27px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #302929;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+
+.our-menu__content-head_item.active {
+  background-color: #fff;
+}

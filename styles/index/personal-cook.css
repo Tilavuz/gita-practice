@@ -1,0 +1,91 @@
+@import url("../variables.css");
+
+.personal-cook {
+    position: relative;
+    z-index: -10;
+    margin-top: 50px;
+    margin-bottom: 145px;
+}
+
+.personal-cook__text {
+    width: 400px;
+}
+
+.personal-cook__wrap {
+  background-color: var(--light-green);
+  padding: 54px 102px;
+  border-radius: 55px;
+  z-index: -5;
+  position: relative;
+}
+
+.personal-cook__image_main-image {
+    position: absolute;
+    top: 9px;
+    right: -65px;
+    width: 866px;
+    height: 577px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.personal-cook__image_main-image-frame {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    z-index: 0;
+    transform: rotate(5deg);
+}
+
+.personal-cook__image_main-image1 {
+    position: absolute;
+    top: 250px;
+    right: -120px;
+    z-index: 5;
+}
+
+.personal-cook__image_main-image2 {
+    position: absolute;
+    top: 325px;
+    left: 430px;
+}
+
+.personal-cook__image_main-image3 {
+    position: absolute;
+    top: -125px;
+    left: 330px;
+}   
+.personal-cook__image_main-image4 {
+    position: absolute;
+    top: 270px;
+    left: -85px;
+}  
+.personal-cook__title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.personal-cook__desc {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.personal-cook__btn {
+  display: inline-flex;
+  padding: 18px 27px;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
